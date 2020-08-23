@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00469133e86bb0c40a62c31e8ea616f6, type: 3}
+  m_Name: Level 4
+  m_EditorClassIdentifier: 
+  levelName: Fast Grandpas
+  holeAmount: 10
+  holePlacementParadigm: {fileID: 11400000, guid: 81091e4f9fba5c841b39347919cc982c,
+    type: 2}
+  moles:
+  - {fileID: 11400000, guid: bd82308ef2816d646bedd5a574f2343f, type: 2}
+  - {fileID: 11400000, guid: bd82308ef2816d646bedd5a574f2343f, type: 2}
+  - {fileID: 11400000, guid: bd82308ef2816d646bedd5a574f2343f, type: 2}
+  - {fileID: 11400000, guid: 23423f63bd93b5b448ccb8c8d0d4d698, type: 2}
+  - {fileID: 11400000, guid: 23423f63bd93b5b448ccb8c8d0d4d698, type: 2}
+  maxActiveMoles: 3
+  cabinetPrefab: {fileID: 8882493075606469194, guid: 54c9154b7d248674586e8871455bf23b,
+    type: 3}
+  levelDuration: 11
+  scoreNeededToWin: 1300
+  cabinetInstance: {fileID: 0}
